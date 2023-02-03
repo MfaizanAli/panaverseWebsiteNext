@@ -2,10 +2,10 @@ const Navbar=() => {
   return (
     <>
       {/* <!-- ***** Preloader Start ***** --> */}
-      {/* <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
+      {/* <div id="js-preloader" className="js-preloader">
+    <div className="preloader-inner">
+      <span className="dot"></span>
+      <div className="dots">
         <span></span>
         <span></span>
         <span></span>
@@ -15,26 +15,26 @@ const Navbar=() => {
       {/* <!-- ***** Preloader End ***** --> */}
   
       {/* <!-- ***** Header Area Start ***** --> */}
-      <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <nav class="main-nav">
+      <header className="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <nav className="main-nav">
                 {/* <!-- ***** Logo Start ***** --> */}
-                <a href="/" class="logo">
+                <a href="/" className="logo">
                   <img src="/assets/images/logo.png" alt="Chain App Dev" height="80" />
                 </a>
                 {/* <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** --> */}
-                <ul class="nav">
-                  <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                  {/* <li class="scroll-to-section"><a href="#services">Services</a></li>
-              <li class="scroll-to-section"><a href="#about">About</a></li>
-              <li class="scroll-to-section"><a href="#pricing">Pricing</a></li>
-              <li class="scroll-to-section"><a href="#newsletter">Newsletter</a></li> */}
-                  <li><div class="gradient-button"><a id="" href="https://portal.piaic.org/"><i class="fa fa-sign-in-alt"></i> Sign In Now</a></div></li>
+                <ul className="nav">
+                  <li className="scroll-to-section"><a href="#top" className="active">Home</a></li>
+                  {/* <li className="scroll-to-section"><a href="#services">Services</a></li>
+              <li className="scroll-to-section"><a href="#about">About</a></li>
+              <li className="scroll-to-section"><a href="#pricing">Pricing</a></li>
+              <li className="scroll-to-section"><a href="#newsletter">Newsletter</a></li> */}
+                  <li><div className="gradient-button"><a id="" href="https://portal.piaic.org/"><i className="fa fa-sign-in-alt"></i> Sign In Now</a></div></li>
                 </ul>
-                <a class='menu-trigger'>
+                <a className='menu-trigger'>
                   <span>Menu</span>
                 </a>
                 {/* <!-- ***** Menu End ***** --> */}

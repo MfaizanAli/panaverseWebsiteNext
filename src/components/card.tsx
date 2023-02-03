@@ -1,11 +1,11 @@
-const Card=({heading, para}) => {
+const Card=(heading:any, para:any) => {
   return (
-    <div class="service-item first-service">
-      <div class="icon"></div>
+    <div className="service-item first-service">
+      <div className="icon"></div>
       <h4>{heading}</h4>
       <p>{para}</p>
-      <div class="text-button">
-        {/* <a href="#">Read More <i class="fa fa-arrow-right"></i></a> */}
+      <div className="text-button">
+        {/* <a href="#">Read More <i className="fa fa-arrow-right"></i></a> */}
       </div>
     </div>
   );
