@@ -1,5 +1,5 @@
-import Footer from "../components/footer.tsx";
-import Navbar from "../components/nav.tsx";
+import Footer from "../components/footer";
+import Navbar from "../components/nav";
 import './globals.css';
 export default function RootLayout({
   children,
